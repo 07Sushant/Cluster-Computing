@@ -1,0 +1,23 @@
+1.write a recursive function to coutOFDIgigts(n): int int to count how many digits are in a number 
+
+
+
+def countOfDigits(n: Int): Int = {
+  if (n == 0) 0
+  else 1 + countOfDigits(n / 10)
+}
+
+
+println(countOfDigits(12345))
+
+
+
+2. Your are given an RDD containing numbers 
+[10,15,20,25,30]
+
+write a spark program in scala-shell to 
+A. multiply each number by three
+B. filter out number greater than 50
+C. Display the remaning numbers
+D. count how many number comes in filtering
+
